@@ -13,7 +13,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background: var(--nero);
+  background: var(--nero) url('img/wood.jpg') center/cover fixed;
   color: var(--bianco);
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -307,7 +307,7 @@ nav a:hover { color: var(--rosso); }
 
 /* ===== FORZA ===== */
 .forza {
-  background: var(--nero);
+  background: rgba(0,0,0,0.45);
   padding: 7rem 0;
 }
 
@@ -404,7 +404,7 @@ nav a:hover { color: var(--rosso); }
 
 /* ===== RECENSIONI ===== */
 .recensioni {
-  background: var(--nero);
+  background: rgba(0,0,0,0.45);
   padding: 7rem 0;
 }
 
@@ -524,7 +524,7 @@ nav a:hover { color: var(--rosso); }
 
 /* ===== FOOTER ===== */
 footer {
-  background: var(--nero);
+  background: rgba(0,0,0,0.55);
   border-top: 2px solid var(--rosso);
   padding: 2.5rem 0;
 }
