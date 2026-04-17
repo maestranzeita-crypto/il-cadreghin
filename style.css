@@ -524,7 +524,7 @@ nav a:hover { color: var(--rosso); }
 
 /* ===== FOOTER ===== */
 footer {
-  background: rgba(0,0,0,0.2);
+  background: var(--nero);
   border-top: 2px solid var(--rosso);
   padding: 2.5rem 0;
 }
