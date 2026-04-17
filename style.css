@@ -100,14 +100,12 @@ h2 {
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.logo svg {
-  width: 210px;
-  height: auto;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--bianco);
+  white-space: nowrap;
+  letter-spacing: 0.02em;
 }
 
 nav {
@@ -526,9 +524,11 @@ footer {
   gap: 1rem;
 }
 
-.footer-logo svg {
-  width: 200px;
-  height: auto;
+.footer-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .footer-links {
@@ -565,7 +565,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .logo svg { width: 160px; }
   nav { display: none; }
   .btn-prenota { display: none; }
   .hamburger { display: flex; }
