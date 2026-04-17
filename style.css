@@ -139,13 +139,12 @@ nav a:hover { color: var(--rosso); }
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 0.6rem 1.4rem;
-  border: 1.5px solid var(--bianco);
-  background: var(--rosso);
+  background: transparent;
   color: var(--bianco);
-  transition: background 0.2s, color 0.2s;
+  transition: color 0.2s;
   white-space: nowrap;
 }
-.btn-prenota:hover { background: #a01818; }
+.btn-prenota:hover { color: var(--testo-chiaro); }
 
 .hamburger {
   display: none;
@@ -181,7 +180,7 @@ nav a:hover { color: var(--rosso); }
 }
 .mobile-nav a:hover { color: var(--rosso); }
 .btn-prenota-mobile {
-  background: var(--rosso);
+  background: transparent;
   text-align: center;
   font-weight: 600;
 }
@@ -256,28 +255,27 @@ nav a:hover { color: var(--rosso); }
 
 .btn-outline {
   padding: 0.85rem 2rem;
-  border: 1.5px solid var(--bianco);
   color: var(--bianco);
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  transition: background 0.2s, color 0.2s;
+  transition: color 0.2s;
 }
-.btn-outline:hover { background: var(--bianco); color: var(--nero); }
+.btn-outline:hover { color: var(--testo-chiaro); }
 
 .btn-solid {
   display: inline-block;
   padding: 0.85rem 2rem;
-  background: var(--rosso);
+  background: transparent;
   color: var(--bianco);
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  transition: background 0.2s;
+  transition: color 0.2s;
 }
-.btn-solid:hover { background: #a01818; }
+.btn-solid:hover { color: var(--testo-chiaro); }
 
 /* ===== CHI SIAMO ===== */
 .chi-siamo {
