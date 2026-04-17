@@ -307,7 +307,7 @@ nav a:hover { color: var(--rosso); }
 
 /* ===== FORZA ===== */
 .forza {
-  background: rgba(0,0,0,0.45);
+  background: rgba(0,0,0,0.15);
   padding: 7rem 0;
 }
 
@@ -404,7 +404,7 @@ nav a:hover { color: var(--rosso); }
 
 /* ===== RECENSIONI ===== */
 .recensioni {
-  background: rgba(0,0,0,0.45);
+  background: rgba(0,0,0,0.15);
   padding: 7rem 0;
 }
 
@@ -524,7 +524,7 @@ nav a:hover { color: var(--rosso); }
 
 /* ===== FOOTER ===== */
 footer {
-  background: rgba(0,0,0,0.55);
+  background: rgba(0,0,0,0.2);
   border-top: 2px solid var(--rosso);
   padding: 2.5rem 0;
 }
