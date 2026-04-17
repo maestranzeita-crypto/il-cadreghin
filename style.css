@@ -5,7 +5,7 @@
   --nero: #0a0a0a;
   --rosso: #c41e1e;
   --bianco: #ffffff;
-  --grigio: #1a1a1a;
+  --grigio: #ffffff;
   --oro: #f5e6c8;
   --testo-chiaro: #aaaaaa;
 }
@@ -54,6 +54,13 @@ h2 {
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 1.5rem;
+  color: inherit;
+}
+
+.chi-siamo h2,
+.specialita h2,
+.contatti h2 {
+  color: var(--nero);
 }
 
 .section-header {
@@ -288,7 +295,7 @@ nav a:hover { color: var(--rosso); }
 }
 
 .chi-siamo .col-text p {
-  color: rgba(255,255,255,0.75);
+  color: rgba(0,0,0,0.65);
   margin-bottom: 1rem;
 }
 
@@ -315,6 +322,7 @@ nav a:hover { color: var(--rosso); }
   background: var(--grigio);
   padding: 2.5rem 2rem;
   transition: transform 0.3s;
+  color: var(--nero);
 }
 .forza-card:hover { transform: translateY(-6px); }
 
@@ -332,7 +340,7 @@ nav a:hover { color: var(--rosso); }
 }
 
 .forza-card p {
-  color: var(--testo-chiaro);
+  color: rgba(0,0,0,0.55);
   font-size: 0.92rem;
   line-height: 1.6;
 }
@@ -462,7 +470,7 @@ nav a:hover { color: var(--rosso); }
   align-items: flex-start;
   gap: 0.9rem;
   font-size: 0.95rem;
-  color: rgba(255,255,255,0.82);
+  color: rgba(0,0,0,0.75);
 }
 
 .ico {
@@ -472,7 +480,7 @@ nav a:hover { color: var(--rosso); }
   margin-top: 2px;
 }
 
-.info-list a { color: var(--bianco); transition: color 0.2s; }
+.info-list a { color: var(--nero); transition: color 0.2s; }
 .info-list a:hover { color: var(--rosso); }
 
 .whatsapp-badge {
