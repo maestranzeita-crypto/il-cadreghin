@@ -4,6 +4,7 @@
 :root {
   --nero: #0a0a0a;
   --rosso: #c41e1e;
+  --salmone: #C9644A;
   --bianco: #ffffff;
   --grigio: #ffffff;
   --oro: #f5e6c8;
@@ -91,9 +92,9 @@ h2 {
 }
 
 #header.scrolled {
-  background: rgba(10, 10, 10, 0.97);
+  background: rgba(201, 100, 74, 0.97);
   backdrop-filter: blur(8px);
-  box-shadow: 0 1px 0 rgba(196, 30, 30, 0.3);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2);
 }
 
 .header-inner {
@@ -174,18 +175,18 @@ nav a:hover { color: var(--rosso); }
   display: none;
   flex-direction: column;
   gap: 0;
-  background: rgba(10,10,10,0.98);
-  border-top: 1px solid rgba(196,30,30,0.3);
+  background: rgba(201,100,74,0.98);
+  border-top: 1px solid rgba(0,0,0,0.15);
 }
 .mobile-nav a {
   padding: 1rem 2rem;
   font-size: 0.9rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid rgba(255,255,255,0.15);
   transition: color 0.2s;
 }
-.mobile-nav a:hover { color: var(--rosso); }
+.mobile-nav a:hover { color: var(--bianco); }
 .btn-prenota-mobile {
   background: transparent;
   text-align: center;
@@ -598,8 +599,8 @@ nav a:hover { color: var(--rosso); }
 
 /* ===== FOOTER ===== */
 footer {
-  background: var(--nero);
-  border-top: 2px solid var(--rosso);
+  background: var(--salmone);
+  border-top: none;
   padding: 2.5rem 0;
 }
 
@@ -638,7 +639,7 @@ footer {
 }
 .footer-links a {
   font-size: 0.8rem;
-  color: var(--testo-chiaro);
+  color: rgba(255,255,255,0.75);
   letter-spacing: 0.05em;
   transition: color 0.2s;
 }
@@ -646,13 +647,13 @@ footer {
 
 .footer-metro {
   font-size: 0.8rem;
-  color: var(--testo-chiaro);
+  color: rgba(255,255,255,0.75);
   letter-spacing: 0.04em;
 }
 
 .footer-copy {
   font-size: 0.8rem;
-  color: rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.5);
 }
 
 /* ===== RESPONSIVE ===== */
