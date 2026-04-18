@@ -359,18 +359,20 @@ nav a:hover { color: var(--rosso); }
 }
 
 .piatto-card {
-  background: var(--nero);
+  position: relative;
   overflow: hidden;
-  border-radius: 2px;
+  border-radius: 4px;
+  height: 300px;
 }
 
 .piatto-img-wrap {
-  position: relative;
-  height: 260px;
-  overflow: hidden;
+  position: absolute;
+  inset: 0;
 }
 .piatto-img-wrap img {
+  width: 100%;
   height: 100%;
+  object-fit: cover;
   transition: transform 0.5s ease;
 }
 .piatto-card:hover .piatto-img-wrap img {
@@ -380,24 +382,38 @@ nav a:hover { color: var(--rosso); }
 .piatto-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(196,30,30,0);
+  background: linear-gradient(to top, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.3) 55%, transparent 100%);
   transition: background 0.3s ease;
 }
 .piatto-card:hover .piatto-overlay {
-  background: rgba(196,30,30,0.25);
+  background: linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(196,30,30,0.18) 60%, transparent 100%);
 }
 
 .piatto-info {
-  padding: 1.4rem 1.6rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.6rem 1.6rem 1.4rem;
+  z-index: 1;
 }
 .piatto-info h3 {
   font-family: 'Playfair Display', serif;
   font-size: 1.15rem;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.35rem;
+  color: #fff;
 }
 .piatto-info p {
-  font-size: 0.88rem;
-  color: var(--testo-chiaro);
+  font-size: 0.84rem;
+  color: rgba(255,255,255,0.75);
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.35s ease, opacity 0.35s ease;
+}
+.piatto-card:hover .piatto-info p {
+  max-height: 4rem;
+  opacity: 1;
 }
 
 .cta-center { text-align: center; }
@@ -657,6 +673,11 @@ footer {
   .mobile-nav.open { display: flex; }
 
   .piatti-grid { grid-template-columns: 1fr; }
+
+  .piatto-info p {
+    max-height: 4rem;
+    opacity: 1;
+  }
 
   .hero-content h1 { font-size: 2.4rem; }
 
