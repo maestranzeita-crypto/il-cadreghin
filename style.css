@@ -404,7 +404,8 @@ nav a:hover { color: var(--rosso); }
 
 /* ===== RECENSIONI ===== */
 .recensioni {
-  background: rgba(0,0,0,0.15);
+  background: rgba(0,0,0,0.55) url('img/wood.jpg') center/cover fixed;
+  background-blend-mode: darken;
   padding: 7rem 0;
 }
 
