@@ -632,12 +632,6 @@ footer {
   fill: currentColor;
 }
 
-.footer-logo-svgs {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 .footer-links {
   display: flex;
   gap: 2rem;
