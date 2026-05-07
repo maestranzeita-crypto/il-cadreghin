@@ -378,6 +378,11 @@ nav a:hover { color: var(--rosso); }
 
 .cta-center { text-align: center; }
 
+.specialita .btn-solid {
+  color: var(--nero);
+}
+.specialita .btn-solid:hover { color: rgba(0,0,0,0.55); }
+
 /* ===== RECENSIONI ===== */
 .recensioni {
   background: rgba(0,0,0,0.55) url('img/wood.jpg') center/cover fixed;
