@@ -15,7 +15,8 @@ html { scroll-behavior: smooth; }
 body {
   background: var(--nero) url('img/wood.jpg') center/cover fixed;
   color: var(--bianco);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
   overflow-x: hidden;
@@ -40,7 +41,7 @@ a { text-decoration: none; color: inherit; }
 .label-red {
   display: inline-block;
   color: var(--rosso);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.2em;
@@ -49,9 +50,9 @@ a { text-decoration: none; color: inherit; }
 }
 
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: clamp(2rem, 4vw, 2.8rem);
-  font-weight: 600;
+  font-weight: 300;
   line-height: 1.2;
   margin-bottom: 1.5rem;
   color: inherit;
@@ -107,7 +108,7 @@ h2 {
 }
 
 .logo {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--bianco);
@@ -238,9 +239,9 @@ nav a:hover { color: var(--rosso); }
 }
 
 .hero-content h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: clamp(2.5rem, 6vw, 4.5rem);
-  font-weight: 700;
+  font-weight: 300;
   line-height: 1.15;
   margin-bottom: 1.2rem;
   text-shadow: 0 2px 20px rgba(0,0,0,0.5);
@@ -334,7 +335,7 @@ nav a:hover { color: var(--rosso); }
 .forza-icon svg { width: 100%; height: 100%; }
 
 .forza-card h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   margin-bottom: 0.75rem;
 }
@@ -398,7 +399,7 @@ nav a:hover { color: var(--rosso); }
   z-index: 1;
 }
 .piatto-info h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.15rem;
   margin-bottom: 0.35rem;
   color: #fff;
@@ -465,7 +466,7 @@ nav a:hover { color: var(--rosso); }
 }
 
 .badge-score {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.6rem;
   font-weight: 700;
   line-height: 1;
@@ -497,7 +498,7 @@ nav a:hover { color: var(--rosso); }
 .recensione-card:hover { border-color: var(--rosso); }
 
 .virgolette {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
   line-height: 1;
   color: var(--rosso);
@@ -619,7 +620,7 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: 0.02em;
