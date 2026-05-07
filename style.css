@@ -659,7 +659,6 @@ footer {
 /* ===== RESPONSIVE ===== */
 @media (max-width: 960px) {
   .two-col { grid-template-columns: 1fr; gap: 3rem; }
-  .chi-siamo .col-img { order: -1; }
   .chi-siamo .col-img img { height: 320px; }
   .forza-grid { grid-template-columns: 1fr; gap: 1.5rem; }
   .recensioni-grid { grid-template-columns: 1fr; gap: 1.5rem; }
